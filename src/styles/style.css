@@ -1,7 +1,93 @@
 /** CSS STYLE **/
 
+:root {
+  --white-color: #fff;
+  --half-transparent-white: #d7ccc0;
+  --light-color: #f5f4f0;
+  --main-color: #fe8a02;
+  --main-dark-color: #42413c;
+  --dark-color: #2a2626;
+  --half-transparent-dark: #908d8b;
+  --brown-color: #b09a81;
+  --blue-color: #1085c5;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("src/fonts/Open_Sans.zip/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+  font-family: "Neucha";
+  src: url("src/fonts/Neucha.zip/Neucha-Regular.ttf");
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark-color);
+}
+
+h1, h2, h3 {
+  font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+section {
+  width: 1110px;
+  justify-content: center;
+  padding: 100px 0;
+}
+
 .hello {
   display: block;
 
-  color: #fff;
+  color: var(--white-color);
+}
+
+section::before {
+  position: absolute;
+  background-image: url("src/styles/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: auto;
+  opacity: 0.1;
+  z-index: -1;
+  content: "";
+}
+
+.header-title {
+  position: relative;
+}
+
+.header-img {
+  height: 525px;
+  position: relative;
+  top: 55px;
+  right: -270px;
+}
+
+.columns-2 {
+  column-count: 2;
+  column-gap: 30px;
+  margin-top: 0;
+}
+
+.button-more {
+  padding: 12px 24px;
+  font-weight: bold;
 }
