@@ -1,10 +1,10 @@
 {
-  "name": "html5-css-boilerplate",
+  "name": "layout-designer-project-58",
   "version": "0.1.0",
-  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
+  "description": "my first layout project",
   "repository": {
     "type": "git",
-    "url": "https://github.com/callmemaruska/layout-designer-project-58.git"
+    "url": "https://github.com/callmemaruska/layout-designer-project-58"
   },
   "main": "",
   "devDependencies": {
@@ -15,6 +15,6 @@
     "stylelint-scss": "^4.4.0",
     "surge": "^0.23.1"
   },
-  "author": "Nikita Mikhaylov",
+  "author": "Mariia Shanaeva",
   "license": "ISC"
 }
