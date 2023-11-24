@@ -14,12 +14,12 @@
 
 @font-face {
   font-family: "Open Sans";
-  src: url("../fonts/Open_Sans.zip/OpenSans-VariableFont_wdth,wght.ttf");
+  src: url("./fonts/Open_Sans.zip/OpenSans-VariableFont_wdth,wght.ttf");
 }
 
 @font-face {
   font-family: Neucha;
-  src: url("../fonts/Neucha.zip/Neucha-Regular.ttf");
+  src: url("./fonts/Neucha.zip/Neucha-Regular.ttf");
 }
 
 body {
