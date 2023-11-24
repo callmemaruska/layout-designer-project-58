@@ -60,7 +60,7 @@ section {
 
 section::before {
   position: absolute;
-  background-image: url("src/styles/background.png");
+  background-image: url("./images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
