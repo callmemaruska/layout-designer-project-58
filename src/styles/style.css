@@ -11,7 +11,6 @@
   --primary-dark: #42413c;
 }
 
-/* open-sans-regular - latin */
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
@@ -19,7 +18,6 @@
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
-/* open-sans-700 - latin */
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
@@ -27,7 +25,6 @@
   src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
 }
 
-/* neucha-regular - latin */
 @font-face {
   font-family: Neucha;
   font-style: normal;
@@ -94,8 +91,6 @@ h3 {
   font-size: 52px;
 }
 
-/* Position css style start */
-
 .margin-0 {
   margin: 0;
 }
@@ -115,10 +110,6 @@ h3 {
 .margin-top-60 {
   margin-top: 60px;
 }
-
-/* Position css style end */
-
-/* FlexBox css style start */
 
 .flex-center {
   display: flex;
@@ -144,10 +135,6 @@ h3 {
 .order-minus-1 {
   order: -1;
 }
-
-/* FlexBox css style end */
-
-/* text css style start */
 
 .text-align-center {
   text-align: center;
@@ -185,10 +172,6 @@ h3 {
   color: var(--primary-dark);
 }
 
-/* text css style start */
-
-/* background-color css style start */
-
 .background-white {
   background-color: var(--white);
 }
@@ -201,14 +184,11 @@ h3 {
   background: var(--brown);
 }
 
-/* background-color css style start */
-
-/* header css style start */
-.background-img {
+.background-pic {
   position: relative;
 }
 
-.background-img::before {
+.background-pic::before {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -228,7 +208,7 @@ h3 {
   color: var(--primary);
 }
 
-.header-img {
+.header-pic {
   position: absolute;
   top: 55px;
   right: -270px;
@@ -257,10 +237,6 @@ h3 {
   background: #ea7600;
 }
 
-/* header css style end */
-
-/* section video css style start */
-
 .h2-margin {
   margin: 0 0 30px;
 }
@@ -269,7 +245,7 @@ iframe {
   border: none;
 }
 
-.video-position {
+.position-video {
   position: relative;
   bottom: -186px;
   margin-top: -186px;
@@ -279,9 +255,6 @@ iframe {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-/* section video css style end */
-
-/* section main css style start */
 .bg-primary-dark {
   background-color: var(--primary-dark);
 }
@@ -321,10 +294,6 @@ iframe {
   line-height: 1;
 }
 
-/* section main css style end */
-
-/* section css style start */
-
 .section-contents {
   max-width: 502px;
 }
@@ -361,10 +330,6 @@ iframe {
   flex: 0 0 540px;
 }
 
-/* section css style end */
-
-/* footer css style start */
-
 .subscription {
   padding-left: 55px;
   padding-right: 55px;
@@ -380,8 +345,6 @@ iframe {
   max-height: 80px;
 }
 
-/* form css style start */
-
 .email {
   margin: 38px 0 9px;
 }
@@ -396,7 +359,7 @@ iframe {
   border: 1px solid #e3e3e3;
 }
 
-.whrite-email {
+.write-email {
   box-sizing: border-box;
   height: 50px;
   padding: 15px;
@@ -435,7 +398,3 @@ iframe {
 
   border: 0;
 }
-
-/* form css style end */
-
-/* footer css style end */
