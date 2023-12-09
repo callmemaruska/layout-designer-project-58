@@ -1,6 +1,5 @@
 Cognitive biases by callmemaruska
 
-```bash
 First Hexlet layout project
 
 ## Setup
