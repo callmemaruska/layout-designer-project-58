@@ -33,7 +33,6 @@
 }
 
 body {
-  overflow-x: hidden;
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -220,11 +219,16 @@ h3 {
 
 .container-items {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
 }
 
-.items-width {
-  width: calc(50% - 15px);
+
+.width-50 {
+  width: 50%;
+}
+
+.wrap-30 {
+  margin: 0 0 0 30px;
 }
 
 .button {
